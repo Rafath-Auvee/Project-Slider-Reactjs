@@ -39,15 +39,3 @@ const Slide = ({ slides }) => {
 };
 
 export default Slide;
-
-
-.slide{
-    opacity: 0;
-    transition-duration: 1s ease;
-}
-
-.slide.active{
-    opacity: 1;
-    transition-duration: 1s;
-    transform: scale(1.0);
-}
